@@ -21,7 +21,7 @@ export default async function CustomersTable({
         <div className="overflow-x-auto">
           <div className="inline-block min-w-full align-middle">
             <div className="overflow-hidden rounded-md bg-gray-50 p-2 md:pt-0">
-              <div className="md:hidden">
+              <div>
                 {customers?.map((customer) => (
                   <div
                     key={customer.id}
